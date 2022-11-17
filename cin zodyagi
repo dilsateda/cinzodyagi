@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        int dogumyili;
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Doğum yılınızı giriniz:");
+        dogumyili = input.nextInt();
+
+        int kalan = dogumyili%12;
+
+        if (kalan == 0) {
+            System.out.println("Çin Zodyağınız MAYMUN");
+        } else if (kalan == 1) {
+            System.out.println("Çin Zodyağınız HOROZ");
+        } else if (kalan == 2) {
+            System.out.println("Çin Zodyağınız KÖPEK");
+        } else if (kalan == 3) {
+            System.out.println("Çin Zodyağınız DOMUZ");
+        } else if (kalan == 4) {
+            System.out.println("Çin Zodyağınız FARE");
+        } else if (kalan == 5) {
+            System.out.println("Çin Zodyağınız ÖKÜZ");
+        } else if (kalan == 6) {
+            System.out.println("Çin Zodyağınız KAPLAN");
+        } else if (kalan == 7) {
+            System.out.println("Çin Zodyağınız TAVŞAN");
+        } else if (kalan == 8) {
+            System.out.println("Çin Zodyağınız EJDERHA");
+        } else if (kalan == 9) {
+            System.out.println("Çin Zodyağınız YILAN");
+        } else if (kalan == 10) {
+            System.out.println("Çin Zodyağınız AT");
+        } else {
+            System.out.println("Çin Zodyağınız KOYUN");
+        }
+    }
+}
